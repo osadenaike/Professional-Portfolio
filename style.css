@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color:rgb(2, 2, 238);
+}
+header h1 a {
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    margin: 0px 0px;
+    background-color: violet;
+    
+   
+}
+
+header nav {
+    margin: 0px;
+  
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+header nav ul li a {
+    color:violet;
+    font-weight: bold;
+    font-size: 2vw;
+    text-decoration: none;
+    margin: 0px 30px;  
+    border-bottom: violet solid 3px;
+}
+.hero {
+    background-image: url("./images/Project\ 2\ picture.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.hero-picture {
+  display: flex;
+  flex-wrap: wrap;  
+  position: absolute;
+  align-content: flex-end;
+  bottom: 20px;
+  right: 40px;
+  color: violet;
+  border: white solid 3px;
+  background-color: white;
+}
