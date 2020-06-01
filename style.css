@@ -8,17 +8,17 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 40px;
-    background-color:rgb(2, 2, 238);
+    padding: 15px;
+    background-color:rgb(66, 66, 245);
 }
 header h1 a {
     font-weight: bold;
     font-size: 36px;
-    color: white;
+    background-color: white;
     margin: 0px 0px;
-    background-color: violet;
-    
-   
+    border:violet solid 3px;
+    color: violet;
+    text-decoration: none;
 }
 
 header nav {
@@ -57,6 +57,42 @@ header nav ul li a {
   bottom: 20px;
   right: 40px;
   color: violet;
-  border: white solid 3px;
+  border:violet solid 3px;
   background-color: white;
+}
+.body {
+    background-color: violet;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-row-gap: 2em;
+    grid-column-gap: 4em;
+    grid-auto-rows: minmax(100px,auto);
+    flex-wrap: wrap;
+    padding: 50px; 
+    color: white;
+    font-style: italic;
+}
+.subject-title {
+        border-right: white solid 3px; 
+        padding: 30px;    
+    }
+
+#subject-p {
+    border: white 1px solid;
+    grid-auto-rows: 70px;
+    grid-template-columns: (3, 1fr);
+}
+body section div ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+body section div ul li {
+    font-weight: bold;
+    font-size: 2vw;
+    text-decoration: none;
+    margin: 0px 30px;  
+    border-bottom: violet solid 3px;
 }
